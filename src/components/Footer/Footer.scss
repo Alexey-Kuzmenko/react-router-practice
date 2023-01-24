@@ -1,0 +1,19 @@
+.Footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    background-color: #ccc;
+
+    &__container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px 15px;
+
+        p {
+            margin: 0 5px 0 0;
+        }
+    }
+}
